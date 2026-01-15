@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <!-- BIG PROTOTYPE IMAGE (Uploaded inside: Updated Images/Prototype.jpeg) -->
+  <!-- BIG PROTOTYPE IMAGE -->
   <img src="Updated Images/Prototype.jpeg" width="900" alt="ESP32 Smart Cooling Pad Prototype"/>
 </p>
 
@@ -99,10 +99,63 @@ The ESP32 communicates with the Python dashboard over Wi-Fi using **HTTP REST AP
 
 ---
 
+## 🧩 PCB Design & Implementation
+
+### 🔹 PCB 3D View
+<p align="center">
+  <img src="Updated Images/3D-PCB.png" width="420" alt="PCB 3D View"/>
+  <img src="Updated Images/PCB_3D_View.png" width="420" alt="PCB 3D View Angle"/>
+</p>
+<p align="center">
+  <sub>3D render views of the custom ESP32 cooling pad controller PCB</sub>
+</p>
+
+---
+
+### 🔹 PCB Top and Bottom Layers
+<p align="center">
+  <img src="Updated Images/PCB_Top_Layer.png" width="420" alt="PCB Top Layer"/>
+  <img src="Updated Images/PCB_Bottom_Layer.png" width="420" alt="PCB Bottom Layer"/>
+</p>
+<p align="center">
+  <sub>PCB routing layers (Top and Bottom)</sub>
+</p>
+
+---
+
+### 🔹 PCB Schematic
+<p align="center">
+  <img src="Updated Images/PCB-Schematic.png" width="850" alt="PCB Schematic"/>
+</p>
+<p align="center">
+  <sub>Full schematic diagram used for the PCB design</sub>
+</p>
+
+---
+
+### 🔹 Design Screenshots / CAD Proof
+<p align="center">
+  <img src="Updated Images/Screenshot 2026-01-15 181153.png" width="420" alt="PCB Screenshot 1"/>
+  <img src="Updated Images/Screenshot 2026-01-15 181213.png" width="420" alt="PCB Screenshot 2"/>
+</p>
+
+<p align="center">
+  <img src="Updated Images/Screenshot 2026-01-15 181247.png" width="420" alt="PCB Screenshot 3"/>
+  <img src="Updated Images/Screenshot 2026-01-15 181316.png" width="420" alt="PCB Screenshot 4"/>
+</p>
+
+<p align="center">
+  <img src="Updated Images/Screenshot 2026-01-15 181825.png" width="850" alt="PCB Screenshot 5"/>
+</p>
+<p align="center">
+  <sub>PCB design and verification screenshots</sub>
+</p>
+
+---
+
 ## 🖼️ Project Images & Screenshots
 
 ### 🔹 Prototype Views (Optional)
-> If these images exist inside `images/` folder, they will show.
 <p align="center">
   <img src="images/front_view.jpg" width="420" alt="Front View"/>
   <img src="images/back_view.jpg" width="420" alt="Back View"/>
@@ -128,16 +181,6 @@ The ESP32 communicates with the Python dashboard over Wi-Fi using **HTTP REST AP
 </p>
 
 ### 🔹 Sensor Images (from report images)
-> Use these only if you uploaded them to GitHub.  
-> (You can keep them in `images/` or in `Updated Images/`.)
-
-<p align="center">
-  <img src="images/LM-35 Temperature-sensor.jpeg" width="270" alt="LM35 Sensor"/>
-  <img src="images/Sharp-IR sensor.jpeg" width="270" alt="Sharp IR Sensor"/>
-  <img src="images/Potentiometer for Cooling-Fan.jpeg" width="270" alt="Potentiometer"/>
-</p>
-
-> If you placed them inside **Updated Images** folder instead, use this block:
 <p align="center">
   <img src="Updated Images/LM-35 Temperature-sensor.jpeg" width="270" alt="LM35 Sensor"/>
   <img src="Updated Images/Sharp-IR sensor.jpeg" width="270" alt="Sharp IR Sensor"/>
@@ -151,5 +194,5 @@ The ESP32 communicates with the Python dashboard over Wi-Fi using **HTTP REST AP
 firmware_arduino/      → ESP32 Arduino firmware
 python_dashboard/      → Python GUI dashboard
 images/                → Project images & screenshots
-Updated Images/        → Updated images (Prototype.jpeg etc.)
+Updated Images/        → Updated images (Prototype.jpeg, PCB images, etc.)
 README.md
